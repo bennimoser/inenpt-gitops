@@ -5,7 +5,7 @@ metadata:
   name: {{ .name }}-app
   namespace: argocd
 spec:
-  project: tenants-project
+  project: default
   destination:
     server: https://kubernetes.default.svc
     namespace: {{ .name }}
