@@ -10,6 +10,7 @@ spec:
         revision: HEAD
         directories:
           - path: tenants/*
+        requeueAfterSeconds: 30
   template:
     metadata:
       name: '{{path.basename}}-app'
