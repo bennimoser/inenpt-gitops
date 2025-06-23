@@ -4,6 +4,6 @@ metadata:
   name: key-store-config
   namespace: {{.Values.tenantName}}
 data:
-  ORDER_SERVICE_URL: http://order-service:8081
+  API_URL: http://order-service:8081
   INVENTORY_SERVICE_URL: http://inventory-service:8082
   APP_NAME: {{.Values.tenantName}}
