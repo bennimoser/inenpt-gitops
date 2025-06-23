@@ -1,0 +1,3 @@
+tenants:
+  - name: tenant-a
+    valuesFile: tenants/tenant-a/values.yaml
