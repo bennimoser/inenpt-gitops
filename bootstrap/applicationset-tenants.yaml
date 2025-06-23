@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: ApplicationSet
 metadata:
-  name: tenants-helm-apps
+  name: tenants-helm
   namespace: argocd
 spec:
   generators:
